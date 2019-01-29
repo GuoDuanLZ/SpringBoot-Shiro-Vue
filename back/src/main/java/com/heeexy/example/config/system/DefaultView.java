@@ -17,5 +17,6 @@ public class DefaultView extends WebMvcConfigurerAdapter {
 		registry.addViewController("/").setViewName("forward:/index.html");
 		registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
 		super.addViewControllers(registry);
+
 	}
 }
